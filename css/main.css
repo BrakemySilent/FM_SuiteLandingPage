@@ -20,6 +20,7 @@ body {
 
 .header {
   margin: 15px;
+  background-color: rgb(255, 255, 255);
 }
 .header__wrapper {
   display: flex;
@@ -45,6 +46,60 @@ body {
   font-weight: 900;
   text-decoration: none;
   color: black;
+}
+
+main {
+  margin: 40px 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner__curve {
+  align-self: flex-end;
+  width: 180px;
+  overflow: hidden;
+}
+.banner__curve-img {
+  width: 100%;
+  transform: scale(0.6);
+}
+.banner__description-heading {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+.banner__description-heading span {
+  font-weight: 700;
+}
+.banner__description-text {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+.banner__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: hsl(219deg, 43%, 16%);
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.banner__image {
+  width: 100%;
+  margin-top: 40px;
+}
+.banner__image-img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {

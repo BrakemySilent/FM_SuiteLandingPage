@@ -19,6 +19,7 @@ body {
 
 .header {
 	margin: 15px;
+	background-color: color.$white;
 
 	&__wrapper {
 		display: flex;
@@ -52,6 +53,74 @@ body {
 	}
 }
 
+main {
+	margin: 40px 15px;
+	background-color: color.$white;
+}
+
+.banner {
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	&__curve {
+		align-self: flex-end;
+		width: 180px;
+		overflow: hidden;
+
+		&-img {
+			width: 100%;
+			transform: scale(0.6);
+		}
+	}
+
+	&__description {
+		&-heading {
+			font-size: 3.2rem;
+			font-weight: 400;
+
+			span {
+				font-weight: 700;
+			}
+		}
+
+		&-text {
+			margin-top: 20px;
+			font-size: 1.3rem;
+			line-height: 2.3rem;
+		}
+	}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		height: 50px;
+		margin-top: 30px;
+		border-radius: 5px;
+		background-color: color.$mainDark;
+		color: color.$white;
+		font-size: 1.4rem;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	&__image {
+		width: 100%;
+		margin-top: 40px;
+
+
+        
+		&-img {
+			width: 100%;
+		}
+	}
+}
+
 // Tablet
 @media (min-width: 768px) {
 	.header {
@@ -72,7 +141,5 @@ body {
 
 // Desktop
 
-@media (min-width: 992px){
-
-    
-};
+@media (min-width: 992px) {
+} ;
